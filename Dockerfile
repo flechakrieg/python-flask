@@ -3,8 +3,9 @@ FROM python:3.9.5
 RUN pip install Flask \
     connexion[swagger-ui] \
     gunicorn \
-    Flask-SQLAlchemy \
+    flask-cors \
     flask-marshmallow \
+    Flask-SQLAlchemy \
     marshmallow-sqlalchemy \
     marshmallow \
     mariadb \
