@@ -8,8 +8,9 @@ RUN pip install Flask \
     Flask-SQLAlchemy \
     marshmallow-sqlalchemy \
     marshmallow \
-    mariadb \
     python-dateutil \
+    psycopg2 \
+    psycopg2-binary \
     pytz \
     requests
 
